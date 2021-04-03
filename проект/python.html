@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python</title>
+</head>
+<style>
+    body {
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(67, 67, 99);
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+        margin: 0px;
+        padding: 0px;
+        color: rgb(255, 255, 255);
+    }
+
+    header ul {
+        display: flex;
+        justify-content: space-around;
+        color: wheat;
+        list-style-type: none;
+    }
+
+    li>a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+
+    }
+
+    li>a:hover {
+        background-color: rgb(125, 61, 141);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        padding-left: 12px;
+    }
+
+    #body {
+        background-color: rgb(194, 189, 196);
+        padding: 20px 0px;
+
+    }
+
+    #body>ul {
+        padding-bottom: 30px;
+        margin: 30px;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-left: 10px;
+    }
+
+    img {
+        padding: 30px;
+        margin-bottom: 0;
+    }
+
+    #img {
+        margin: 0px 15px;
+        font-style: italic;
+        font-size: 15px;
+        padding-bottom: 40px;
+        padding-left: 130px;
+    }
+
+    h4 {
+        padding-top: 10px;
+    }
+
+    footer>div {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    #iuca {
+        display: flex;
+        justify-content: center;
+    }
+
+    #iuca img {
+        width: 100px;
+        transform: translate(0, 50px);
+    }
+
+    footer>div>p {
+        color: white;
+        padding: 10px;
+    }
+
+    #footer {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    #main {
+        padding: 5px 30px;
+    }
+
+    #link {
+        padding: 10px;
+        font-style: italic;
+    }
+</style>
+
+<body>
+    <header>
+        <h1> Рython</h1>
+        <div>
+            <!-- <div id="menu">
+            <div>-</div>
+            <div>-</div>
+            <div>-</div>
+        </div> -->
+            <ul>
+                <li>
+                    <a href="./index.html"> Home
+                    </a>
+                </li>
+                <li><a href="./js.html">JavaScript</a></li>
+                <li><a href="./c.html">C#</a></li>
+                <li> <a href="./swift.html">Swift</a></li>
+                <li><a href="./java.html"> Java</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="body">
+        <p id="main">Python — самый быстрорастущий язык программирования за последние несколько лет. Python просто
+            понять и
+            изучить. Название языка произошло вовсе не от названия семейства пресмыкающихся. Автор назвал язык в честь
+            популярного британского комедийного телешоу 1970-х «Летающий цирк Монти Пайтона». Впрочем, всё равно
+            название языка чаще связывают именно со змеёй, нежели с передачей — пиктограммы файлов в KDE или в Microsoft
+            Windows и сам логотип языка изображает змеиные головы</p>
+        <h2>Преимущества Python</h2>
+        <ul>
+            <li>Python легко конкурирует с другими языками программирования, так как имеет множество достоинств.
+                Во-первых, это понятный и простой язык программирования. Особенно хорошо он для новичков. Можно создать
+                интересные приложения, и при этом не придется сидеть неделями, изучая сложный синтаксис.
+            </li>
+            <li>Динамическая типизация – это одно из главных достоинств языка Python. Для новичков это возможность
+                упростить написание кода и избежать множества фатальных ошибок и багов в работе. Также в Python нет
+                операторных скобок, с расставлением которых зачастую возникают сложности.</li>
+            <li>С Python доступно огромное количество сервисов, сред разработки, и фреймворков. Легко можно найти
+                подходящий продукт для работы.
+                Возможность подключить библиотеки, написанные на С. Это позволяет повысить эффективность, улучшить
+                быстродействие.</li>
+        </ul>
+        <img src="./fd526ab9dd2b5e6acbce968156365d1a5d28a67c.jpg" alt="">
+        <p id="img">Pис. 1 В рейтинге TIOBE можно проследить связь роста популярности Python и падения популярности PHP.
+        </p>
+        <h2>Недостатки языка Python</h2>
+        <ul>
+            <li>Программы на Python считаются одними из самых медленных.
+                Приложения для iOS на Swift работают в 8,7 раз быстрее, чем на Python. Реализация PyPy по скорости
+                близка к Java, но в ней есть не все возможности оригинального языка. Python не подходит для задач,
+                требующих большого объёма памяти, — их лучше решать вставками на C или C++.</li>
+            <li>Сильная зависимость языка от системных библиотек
+                Из-за этого затрудняется перенос на другие системы. Для этих целей существует инструмент Virtualenv, но
+                и он с недостатками: избыточность полных методов изоляции, костыли, дублирование системных библиотек.
+            </li>
+            <li>Global Interpreter Lock (GIL) не позволяет выполнять несколько потоков Python одновременно в реализации
+                CPython.
+                Однако GIL можно отключить на какое-то время, как это сделано в математическом пакете NumPy.</li>
+        </ul>
+    
+    </div>
+    <footer>
+        <div>
+            <p>Contact</p>
+            <p>Tursunalieva Aidaiym IT-120</p>
+            <p><a href="tursunalieva_ai@iuca.kg" id="footer">tursunalieva_ai@iuca.kg</a></p>
+            <p>Bishkek Masaliev 215</p>
+            <p>+996550770128</p>
+        </div>
+        <div id="iuca">
+            <p>International University of Central Asia (IUCA) <img src="./unnamed.png" alt=""></p>
+
+        </div>
+    </footer>
+</body>
+
+</html>

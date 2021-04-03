@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+</head>
+<style>
+    body {
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(67, 67, 99);
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+        margin: 0px;
+        padding: 0px;
+        color: rgb(255, 255, 255);
+       
+    }
+
+    header ul {
+        display: flex;
+        justify-content: space-around;
+        color: wheat;
+        list-style-type: none;
+    }
+
+    li>a {
+       
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+
+    }
+
+    li>a:hover {
+        background-color: rgb(125, 61, 141);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        padding-left: 12px;
+    
+    }
+
+    #body {
+        background-color: rgb(194, 189, 196);
+        padding: 10px 0;
+
+    }
+
+    #body>ul {
+        padding-bottom: 30px;
+        margin: 30px;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-left: 10px;
+    }
+
+    img {
+        padding: 30px;
+        margin-bottom: 0;
+    }
+
+    #img {
+        margin: 0px 25px;
+        font-style: italic;
+        font-size: 15px;
+        padding-bottom: 40px;
+        padding-left: 200px;
+    }
+
+    h4 {
+        padding-top: 10px;
+    }
+
+    footer>div {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    #iuca {
+        display: flex;
+        justify-content: center;
+    }
+
+    #iuca img {
+        width: 100px;
+        transform: translate(0, 50px);
+    }
+
+    footer>div>p {
+        color: white;
+        padding: 10px;
+    }
+
+    #footer {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    #img1 {
+        width: 700px;
+        margin-left: 30px;
+    }
+    #main{
+padding: 5px 30px; 
+    }
+</style>
+
+<body>
+    <header>
+        <h1> Java</h1>
+        <div>
+            <!-- <div id="menu">
+            <div>-</div>
+            <div>-</div>
+            <div>-</div>
+        </div> -->
+            <ul>
+                <li>
+                    <a href="./index.html"> Home
+                    </a>
+                </li>
+                <li><a href="./python.html">Python</a></li>
+                <li><a href="./js.html">JavaScript</a></li>
+                <li> <a href="./c.html">C#</a></li>
+                <li><a href="./swift.html"> Swift</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="body">
+        <p id="main">На сегодняшний момент язык Java является одним из самых распространенных и популярных языков
+            программирования. Первая версия языка появилась еще в 1996 году в недрах компании Sun Microsystems,
+            впоследствии поглощенной компанией Oracle. Java задумывался как универсальный язык программирования, который
+            можно применять для различного рода задач. И к настоящему времени язык Java проделал большой путь, было
+            издано множество различных версий. Текущей версией является Java 15, которая вышла в сентябре 2020 года.
+
+        </p>
+        <h2>Преимущества Java</h2>
+        <ul>
+            <li> Гибкость. Java доказала, что C — процедурный, управляемый вручную и зависящий от платформы код — это не
+                предел совершенства . Благодаря Java, все больше людей начали применять объектно-ориентированное
+                программирование, которое сейчас используется повсеместно.
+            </li>
+            <li>Java включает в себя объектно-ориентированное программирование (OOP) — концепцию, в которой вы не только
+                определяете тип данных и его структуру, но и набор функций, применяемых к нему. Таким образом, структура
+                данных становится объектом, которым можно управлять для создания отношений между различными объектами.
+            </li>
+            <li>ООП предотвращает ошибки, поскольку объекты скрывают информацию, к которой не должно быть доступа
+                ООП более эффективно организует структуру программ, в том числе больших</li>
+            <li>Java — это язык высокого уровня, то есть он похож на человеческий язык. В отличие от языков низкого
+                уровня, которые напоминают машинный код. Языки высокого уровня преобразуется с помощью компиляторов или
+                интерпретаторов. Это упрощает разработку, делая язык более легким для написания, чтения и обслуживания.
+            </li>
+        </ul>
+        <img src="./unnamed (1).png" alt="" id="img1">
+        <p id="img">Pис. 1 Статистика использовании версии Java</p>
+        <h2>Недостатки языка Java</h2>
+        <ul>
+            <li> Платное коммерческое использование
+                Недавно Oracle объявила, что с 2019 года компания начнет взимать плату за использование Java Standard
+                Edition 8 в «коммерческих целях». За все новые обновления и исправления ошибок придется заплатить. Плата
+                зависит от количества пользователей или компьютеров.</li>
+            <li> Низкая производительность
+                У любого языка высокого уровня довольно низкая производительность из-за компиляции и абстракции с
+                помощью виртуальной машины. Однако это не единственная причина низкой скорости Java. Например,
+                приложение очистки памяти: это полезная функция, которая, к сожалению, приводит к значительным проблемам
+                с производительностью, если требует больше 20 процентов времени процессора.</li>
+            <li> Многословный и сложный код
+                Многословность кода может показаться преимуществом, которое поможет при изучении языка. Однако, длинные,
+                чрезмерно сложные предложения затрудняют чтение и просмотр кода. Как и естественные языки, многие языки
+                программирования высокого уровня содержат лишнюю информацию.</li>
+
+        </ul>
+
+    </div>
+    <footer>
+        <div>
+            <p>Contact</p>
+            <p>Tursunalieva Aidaiym IT-120</p>
+            <p><a href="tursunalieva_ai@iuca.kg" id="footer">tursunalieva_ai@iuca.kg</a></p>
+            <p>Bishkek Masaliev 215</p>
+            <p>+996550770128</p>
+        </div>
+        <div id="iuca">
+            <p>International University of Central Asia (IUCA) <img src="./unnamed.png" alt=""></p>
+
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<style>
+    body {
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(67, 67, 99);
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+        margin: 0px;
+        padding: 0px;
+        color: rgb(255, 255, 255);
+    }
+
+    header ul {
+        display: flex;
+        justify-content: space-around;
+        color: wheat;
+        list-style-type: none;
+    }
+
+    li>a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+
+    }
+
+    li>a:hover {
+        background-color: rgb(125, 61, 141);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        padding-left: 12px;
+    }
+
+    #body {
+        background-color: rgb(194, 189, 196);
+        padding: 10px 0;
+
+    }
+
+    #body>ul {
+        padding-bottom: 30px;
+        margin: 30px;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-left: 10px;
+    }
+
+    img {
+        padding: 30px;
+        margin-bottom: 0;
+    }
+
+    #img {
+        margin: 0px 25px;
+        font-style: italic;
+        font-size: 15px;
+        padding-bottom: 40px;
+        padding-left: 290px;
+    }
+
+    h4 {
+        padding-top: 10px;
+    }
+
+    footer>div {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    #iuca {
+        display: flex;
+        justify-content: center;
+    }
+
+    #iuca img {
+        width: 100px;
+        transform: translate(0, 50px);
+    }
+
+    footer>div>p {
+        color: white;
+        padding: 10px;
+    }
+
+    #footer {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    #img1 {
+        width: 800px;
+        margin-left: 50px;
+    }
+    .main{
+padding: 5px 30px; 
+    }
+</style>
+
+<body>
+    <header>
+        <h1> JavaScript</h1>
+        <div>
+            <!-- <div id="menu">
+            <div>-</div>
+            <div>-</div>
+            <div>-</div>
+        </div> -->
+            <ul>
+                <li>
+                    <a href="./index.html"> Home
+                    </a>
+                </li>
+                <li><a href="./python.html">Python</a></li>
+                <li><a href="./c.html">C#</a></li>
+                <li> <a href="./swift.html">Swift</a></li>
+                <li><a href="./java.html"> Java</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="body">
+        <p class="main">JavaScript — это язык программирования, который даёт возможность реализовывать сложное поведение
+            веб-страницы. Каждый раз, когда вы видите веб-страницу, она не только отображает статическое содержимое, но
+            и делает большее - своевременно отображает обновление контента, выводит интерактивные карты, 2D/3D анимацию,
+            прокручивает видео и т.д. - будьте уверены, здесь не обошлось без JavaScript.</p>
+        <h2>Преимущества JavaScript</h2>
+        <ul>
+            <li> Незаменимость для веб-разработки. Поддержка скриптов всеми популярными браузерами; полная интеграция с
+                вёрсткой страниц (HTML+CSS) и серверной частью (backend).
+            </li>
+            <li>Скорость работы и производительность. Javascript позволяет частично обрабатывать веб-страницы на
+                компьютерах пользователя без запросов к серверу. Это экономит время и трафик, снижает нагрузку на
+                сервер.</li>
+            <li>Простота и рациональность применения. Простую задачку можно решить за 5 минут, не надо делать лишнюю
+                работу. Для сложных заданий есть варианты решения, можно подобрать лучший, адаптировать.</li>
+            <li>Лёгкость освоения. Возможно, это дело привычки. Сначала код может показаться сложным, но к его
+                синтаксису, логике быстро привыкаешь. Отображение действий ощутимо добавляет энтузиазма.
+            </li>
+        </ul>
+        <img src="./Github Statistics.png" alt="" id="img1">
+        <p id="img">Pис. 1 Самые ппопулярные фреймворки</p>
+        <h2>Недостатки языка JavaScript</h2>
+        <ul>
+            <li> Нет возможности чтения и загрузки файлов. Это ограничение функциональности на стороне клиента. Главная
+                причина – соображения безопасности.</li>
+            <li>Нестрогая типизация и вольная трактовка. Язык игнорирует явные нестыковки. Имеет место разная
+                интерпретация данных. Нет возможности раннего выявления ошибок. Все недочёты выявляются уже на этапе
+                работы.</li>
+            <li>Нет поддержки удалённого доступа. Поэтому язык нельзя использовать для сетевых приложений. За это
+                Javascript даже не считают полноценным языком программирования.</li>
+            <li> Доступность для злоумышленников. В свободный скриптовый язык проще всего встроить фрагмент вредоносного
+                кода, который может навредить пользователю. Надежда только на антивирус и фаервол.</li>
+        </ul>
+
+    </div>
+    <footer>
+        <div>
+            <p>Contact</p>
+            <p>Tursunalieva Aidaiym IT-120</p>
+            <p><a href="tursunalieva_ai@iuca.kg" id="footer">tursunalieva_ai@iuca.kg</a></p>
+            <p>Bishkek Masaliev 215</p>
+            <p>+996550770128</p>
+        </div>
+        <div id="iuca">
+            <p>International University of Central Asia (IUCA) <img src="./unnamed.png" alt=""></p>
+
+        </div>
+    </footer>
+</body>
+
+</html>

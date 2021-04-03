@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swift</title>
+</head>
+<style>
+    body {
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(67, 67, 99);
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+        margin: 0px;
+        padding: 0px;
+        color: rgb(255, 255, 255);
+    }
+
+    header ul {
+        display: flex;
+        justify-content: space-around;
+        color: wheat;
+        list-style-type: none;
+    }
+
+    li>a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+
+    }
+
+    li>a:hover {
+        background-color: rgb(125, 61, 141);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        padding-left: 12px;
+    }
+
+    #body {
+        background-color: rgb(194, 189, 196);
+        padding: 10px 0;
+
+    }
+
+    #body>ul {
+        padding-bottom: 30px;
+        margin: 30px;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-left: 10px;
+    }
+
+    img {
+        padding: 30px;
+        margin-bottom: 0;
+    }
+
+    #img {
+        margin: 0px 25px;
+        font-style: italic;
+        font-size: 15px;
+        padding-bottom: 40px;
+        padding-left: 200px;
+    }
+
+    h4 {
+        padding-top: 10px;
+    }
+
+    footer>div {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    #iuca {
+        display: flex;
+        justify-content: center;
+    }
+
+    #iuca img {
+        width: 100px;
+        transform: translate(0, 50px);
+    }
+
+    footer>div>p {
+        color: white;
+        padding: 10px;
+    }
+
+    #footer {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    #img1 {
+        width: 900px;
+        margin-left: 30px;
+    }
+    #main{
+padding: 5px 30px; 
+    }
+</style>
+
+<body>
+    <header>
+        <h1> Swift</h1>
+        <div>
+            <!-- <div id="menu">
+            <div>-</div>
+            <div>-</div>
+            <div>-</div>
+        </div> -->
+            <ul>
+                <li>
+                    <a href="./index.html"> Home
+                    </a>
+                </li>
+                <li><a href="./python.html">Python</a></li>
+                <li><a href="./js.html">JavaScript</a></li>
+                <li> <a href="./c.html">C#</a></li>
+                <li><a href="./java.html"> Java</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="body">
+        <p id="main"> Swift - это фантастический способ писать приложения для телефонов, для десктопных компьютеров, серверов, да и
+            чего-либо еще, что запускает и работает при помощи кода. Swift - безопасный, быстрый и интерактивный язык
+            программирования. Swift вобрал в себя лучшие идеи современных языков с мудростью инженерной культуры Apple.
+            Компилятор оптимизирован для производительности, а язык оптимизирован для разработки, без компромиссов с
+            одной или другой стороны.</p>
+        <h2>Преимущества Swift</h2>
+        <ul>
+            <li> Легкий.
+                Apple любит минимализм. Поэтому в Swift простой синтаксис, его легко читать и легко писать на нем. Swift
+                легко понимают разработчики, которые знают другие языки. Этот факт является определяющим при разработке
+                приложения на несколько платформ.
+            </li>
+            <li>Безопасный.
+                Ещё одна сильная сторона Swift, это его функциональная безопасность. Этот статически типизированный язык
+                позволяет программистам быстро находить ошибки еще до компиляции и устранять их. Более того, с помощью
+                указателя nil разработчики могут избавиться от ошибок компиляции, вызванных нулевыми ссылками (null).
+            </li>
+            <li>Имеет автоматическое управление памятью.
+                Автоматический подсчет ссылок следит и управляет памятью приложения самостоятельно. Теперь разработчикам
+                не надо тратить время, чтобы делать это самостоятельно. В результате сокращается время на создание
+                приложения.</li>
+            <li>Имеет открытый исходный код.
+                В Swift появился открытый исходный код в 2015. Это событие сильно повлияло на популярность языка. В 2015
+                он стал любимым языком пользователей Github, а в 2016-м занял второе место.
+            </li>
+        </ul>
+        <img src="./1_riuVu7xs-zM1QG0aTPfQhw.png" alt="" id="img1">
+        <p id="img">Pис. 1 Этот график отражает статистику популярности Swift.</p>
+        <h2>Недостатки языка Swift</h2>
+        <ul>
+            <li> Ограниченный кадровый потенциал.
+                Swift новичок среди языков, в связи с этим талантливых разработчиков пока не так много. Но этот
+                недостаток легко превратить в достоинство тем, кто хочет стать Swift разработчиком. Потребность в них
+                только увеличивается, а конкуренция все еще не большая.</li>
+            <li>Малое количество библиотек.
+                В Swift все еще довольно мало встроенных функций, которые бы работали одинаково хорошо во всех версиях.
+                Большинство библиотек и фреймворков разработаны для более ранних версий языка и совершенно бесполезны в
+                новых.</li>
+            <li>Нестабильность.
+                Многие разработчики жалуются на одну и ту же проблему. Из-за изменений, представленных в новой версии
+                языка, Swift ведет себя очень нестабильно. Это значит, что если разработчик хочет перейти на новую
+                версию языка — ему нужно будет переписать код. Правда, эта проблема была частично решена с помощью Swift
+                Migration Tool в XCode, что сделало миграцию на 4-ю версию языка довольно простой задачей.</li>
+
+        </ul>
+
+    </div>
+    <footer>
+        <div>
+            <p>Contact</p>
+            <p>Tursunalieva Aidaiym IT-120</p>
+            <p><a href="tursunalieva_ai@iuca.kg" id="footer">tursunalieva_ai@iuca.kg</a></p>
+            <p>Bishkek Masaliev 215</p>
+            <p>+996550770128</p>
+        </div>
+        <div id="iuca">
+            <p>International University of Central Asia (IUCA) <img src="./unnamed.png" alt=""></p>
+
+        </div>
+    </footer>
+</body>
+
+</html>

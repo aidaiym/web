@@ -1,0 +1,54 @@
+ .container {
+     width: 1200px;
+ }
+
+ h1 {
+     padding: 12px;
+     color: rgb(255, 255, 255);
+ }
+
+ img {
+     margin: 20px;
+     width: 170px;
+ }
+ p {
+     font-size: 20px;
+     font-family: 'Times New Roman', Times, serif;
+     padding-left: 10px;
+ }
+ th,
+ td,
+ li {
+     font-size: 20px;
+     font-family: 'Times New Roman', Times, serif;
+     color: rgb(0, 0, 0);
+ }
+ li>a {
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+
+ }
+ li>a:hover {
+     background-color: rgb(125, 61, 141);
+     border-radius: 15px;}
+.carousel img{
+    height: 450px;
+}
+.topNubex {
+     position: fixed;
+     right: 45px;
+     bottom: 45px;
+
+ }
+ #svipe {
+     width: 50px;
+     border-radius: 100%;
+ }
+ footer {
+     color: white;
+     margin-top: 20px;
+     padding: 10px
+}
+ .border-bottom {
+     border-bottom: 2px solid rgb(0, 0, 0)
+ }
